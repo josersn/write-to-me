@@ -19,8 +19,8 @@ jobs:
 
       - name: Commit e Push
         run: |
-          git config --local user.email "seu-email@exemplo.com"
-          git config --local user.name "Seu Nome"
+          git config --local user.email "nettorammos@hotmail.com"
+          git config --local user.name "José Ramos"
           git add daily-log.txt
           git commit -m "chore: daily update [skip ci]"
           git push
